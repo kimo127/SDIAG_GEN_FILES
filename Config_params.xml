@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+<Params>
+<Param Name="DID_STATUS" Connection="Fault_Type" />
+<Param Name="DID_POWER_SUPPLIES" Connection="Fault" />
+<Param Name="DID_POWER_SUPPLIES_MU2_VOLTAGE" Connection="VBAT_MEAS" />
+<Param Name="DID_POWER_SUPPLIES_MU2_VAMS" Connection="VAMS_MEAS" />
+<Param Name="DID_POWER_SUPPLIES_MD" Connection="VAMS_MEAS" />
+<Param Name="DID_BOOL" Connection="Input_Boo" />
+<Param Name="DID_BOOL" Connection="Output_Boo" />
+<Param Name="DID_FAIL_TYPE_RESISTOR" Connection="Fault" />
+<Param Name="DID_ANALOG_INPUTS_MU2_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_MU2_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_FREQUENCY_INPUTS_MU2_TON" Connection="Input_Freq_ON" />
+<Param Name="DID_FREQUENCY_INPUTS_MU2_TOFF" Connection="Input_Freq_OFF" />
+<Param Name="DID_FAIL_TYPE_VOLTAGE" Connection="Fault" />
+<Param Name="DID_UNIVERSAL_INPUTS_MU2_VOLTAGE" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_MU2_VOLTAGE" Connection="Input_Ana" />
+<Param Name="DID_UNIVERSAL_INPUTS_MU2_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_MU2_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_FAIL_TYPE" Connection="Fault" />
+<Param Name="DID_FAIL_TYPE_WIPER" Connection="Fault_Wiper_Park" />
+<Param Name="DID_COMMAND" Connection="Output_Boo" />
+<Param Name="DID_COMMAND" Connection="BG1" />	
+<Param Name="DID_COMMAND" Connection="BG2" />	
+<Param Name="DID_COMMAND" Connection="BG3" />	
+<Param Name="DID_COMMAND" Connection="BG4" />	
+<Param Name="DID_COMMAND" Connection="BG5" />	
+<Param Name="DID_COMMAND" Connection="BG6" />	
+<Param Name="DID_COMMAND" Connection="Input_Boo" />
+<Param Name="DID_COMMAND" Connection="Output_Bridge" />
+<Param Name="DID_GAUGE_BACKLIGHT_MU2" Connection="BackLight" />
+<Param Name="DID_LOW_SIDE_OUTPUTS_MU2_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_LOW_SIDE_OUTPUTS_MU2_CURRENT" Connection="Current" />
+<Param Name="DID_ENGINE_SPEED_MU2_ENGINE_SPEED" Connection="Output_Ana" />
+<Param Name="DID_SENSOR_SUPPLIES_MU2_VOLTAGE" Connection="Output_AnaV4" />
+<Param Name="DID_SENSOR_SUPPLIES_MU2_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_GAUGE_STEPPER_MOTOR_MU2_AGULAR_POSITION_230" Connection="Output_Ana" />
+<Param Name="DID_GAUGE_STEPPER_MOTOR_MU2_AGULAR_POSITION_90" Connection="Output_Ana" />
+<Param Name="DID_POWER_SUPPLIES_M25_VOLTAGE" Connection="Input_AnaV4" />
+<Param Name="DID_POWER_SUPPLIES_M25_VOLTAGE" Connection="VBAT_MEAS" />
+<Param Name="DID_ANALOG_INPUTS_M25_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_M25_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_DIGITAL_INPUTS_M25_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_DIGITAL_INPUTS_M25_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_NETWORK_ADRESSS_INPUT_M25_RESISTOR" Connection="" />
+<Param Name="DID_FREQUENCY_INPUTS_M25_TON" Connection="Input_Freq_ON" />
+<Param Name="DID_FREQUENCY_INPUTS_M25_TOFF" Connection="Input_Freq_OFF" />
+<Param Name="DID_UNIVERSAL_INPUTS_M25_VOLTAGE" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_M25_VOLTAGE" Connection="Input_Ana" />
+<Param Name="DID_UNIVERSAL_INPUTS_M25_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_M25_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_HIGH_SIDE_OUTPUTS_M25_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_HIGH_SIDE_OUTPUTS_M25_CURRENT" Connection="Current" />
+<Param Name="DID_SENSOR_SUPPLIES_M25_VOLTAGE" Connection="Output_AnaV4" />
+<Param Name="DID_SENSOR_SUPPLIES_M25_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_SENSOR_SUPPLIES_M25_CURRENT" Connection="Current" />
+<Param Name="DID_ANALOG_INPUTS_P15_RESISTOR_LOW" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P15_RESISTOR_LOW" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P15_RESISTOR_AUTO" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P15_RESISTOR_AUTO" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P15_RESISTOR_HIGH" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P15_RESISTOR_HIGH" Connection="Input_Ana" />
+<Param Name="DID_DIRECTION" Connection="HS_LS" />
+<Param Name="DID_BRIDGE_DIRECTION" Connection="Direction_Bridge" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P15_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P15_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P15_CURRENT" Connection="Current" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P15_CURRENT" Connection="Current_Bridge" />
+<Param Name="DID_OUTPUTS_P15_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_OUTPUTS_P15_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P15_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_INPUT_OUTPUT_P15_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P15_VOLTAGE_FEEDBACK_LED" Connection="" />
+<Param Name="DID_INPUT_OUTPUT_P15_DIAG_CURRENT_LED" Connection="Current_Diag" />
+<Param Name="DID_SENSOR_SUPPLIES_P15_CMD_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_BRIDGE_OUTPUTS_P15_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_BRIDGE_OUTPUTS_P15_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_BRIDGE_OUTPUTS_P15_CURRENT" Connection="Current_Bridge" />
+<Param Name="DID_SPEED" Connection="Output_Wiper" />
+<Param Name="DID_ANALOG_INPUTS_P33_RESISTOR_LOW" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P33_RESISTOR_LOW" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P33_RESISTOR_AUTO" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P33_RESISTOR_AUTO" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P33_RESISTOR_HIGH" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P33_RESISTOR_HIGH" Connection="Input_Ana" />
+<Param Name="DID_FREQUENCY_INPUTS_P33_TON" Connection="Input_Freq_ON" />
+<Param Name="DID_FREQUENCY_INPUTS_P33_TOFF" Connection="Input_Freq_OFF" />
+<Param Name="DID_UNIVERSAL_INPUTS_P33_VOLTAGE" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_P33_VOLTAGE" Connection="Input_Ana" />
+<Param Name="DID_UNIVERSAL_INPUTS_P33_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_P33_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P33_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P33_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P33_CURRENT" Connection="Current" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P33_CURRENT" Connection="Current_Bridge" />
+<Param Name="DID_OUTPUTS_P33_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_OUTPUTS_P33_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P33_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_INPUT_OUTPUT_P33_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P33_VOLTAGE_FEEDBACK_LED" Connection="" />
+<Param Name="DID_INPUT_OUTPUT_P33_DIAG_CURRENT_LED" Connection="Current_Diag" />
+<Param Name="DID_SENSOR_SUPPLIES_P33_CMD_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_BRIDGE_OUTPUTS_P33_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_BRIDGE_OUTPUTS_P33_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_BRIDGE_OUTPUTS_P33_CURRENT" Connection="Current_Bridge" />
+<Param Name="DID_ANALOG_INPUTS_P66_RESISTOR_LOW" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P66_RESISTOR_LOW" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P66_RESISTOR_AUTO" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P66_RESISTOR_AUTO" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P66_RESISTOR_HIGH" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P66_RESISTOR_HIGH" Connection="Input_Ana" />
+<Param Name="DID_FREQUENCY_INPUTS_P66_TON" Connection="Input_Freq_ON" />
+<Param Name="DID_FREQUENCY_INPUTS_P66_TOFF" Connection="Input_Freq_OFF" />
+<Param Name="DID_UNIVERSAL_INPUTS_P66_VOLTAGE" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_P66_VOLTAGE" Connection="Input_Ana" />
+<Param Name="DID_UNIVERSAL_INPUTS_P66_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_P66_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P66_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P66_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P66_CURRENT" Connection="Current" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P66_CURRENT" Connection="Current_Bridge" />
+<Param Name="DID_OUTPUTS_P66_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_OUTPUTS_P66_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P66_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_INPUT_OUTPUT_P66_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P66_VOLTAGE_FEEDBACK_LED" Connection="" />
+<Param Name="DID_INPUT_OUTPUT_P66_DIAG_CURRENT_LED" Connection="Current_Diag" />
+<Param Name="DID_SENSOR_SUPPLIES_P66_CMD_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_BRIDGE_OUTPUTS_P66_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_BRIDGE_OUTPUTS_P66_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_BRIDGE_OUTPUTS_P66_CURRENT" Connection="Current" />
+<Param Name="DID_VEHICLE_SPEED_MU2_VEHICLE_SPEED_INPUT" Connection="In_VehicleSpeed" />
+<Param Name="DID_VEHICLE_SPEED_MU2_VEHICLE_SPEED_OUTPUT" Connection="Out_VehicleSpeed" />
+<Param Name="DID_VEHICLE_SPEED_MU2_VEHICLE_SPEED_INKCOEF" Connection="InKCoef" />
+<Param Name="DID_HIGH_SIDE_OUTPUTS_MU2_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_KM_PICTO" Connection="DKM" />
+<Param Name="DID_DOUBLE_DOT_PICTO" Connection="DDoubleDot" />
+<Param Name="DID_SINGLE_DOT_PICTO" Connection="DDot" />
+<Param Name="DID_DISPLAY_SELECT" Connection="DSelect" />
+<Param Name="DID_ODOMETER_MU2_ODO_DISPLAY_VALUE" Connection="Odo_Value" />
+<Param Name="DID_ODOMETER_MU2_TRIP_DISPLAY_VALUE" Connection="Trip_Value" />
+<Param Name="DID_ODOMETER_MU2_ODO_DISPLAY_LENGTH" Connection="Odo_displayLength" />
+<Param Name="DID_ODOMETER_MU2_TRIP_DISPLAY_LENGTH" Connection="Trip_displayLength" />
+<Param Name="DID_COLOR" Connection="Output_Ana" />
+<Param Name="DID_SENSOR_SUPPLIES_P15_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_SENSOR_SUPPLIES_P33_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_SENSOR_SUPPLIES_P66_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_WAKEUP_ORIGIN_INPUT_POWER33" Connection="WakeUp_Origin" />
+<Param Name="DID_WAKEUP_ORIGIN_INPUT_POWER15" Connection="WakeUp_Origin" />
+<Param Name="DID_WAKEUP_ORIGIN_INPUT_POWER66" Connection="WakeUp_Origin" />
+<Param Name="DID_WAKEUP_ORIGIN_INPUT_MASTER25" Connection="WakeUp_Origin" />
+<Param Name="DID_WAKEUP_ORIGIN_INPUT_MASTERDISPLAY" Connection="WakeUp_Origin" />
+<Param Name="DID_ANALOG_INPUTS_P-S_RESISTOR_LOW" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P-S_RESISTOR_LOW" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P-S_RESISTOR_AUTO" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P-S_RESISTOR_AUTO" Connection="Input_Ana" />
+<Param Name="DID_ANALOG_INPUTS_P-S_RESISTOR_HIGH" Connection="Input_AnaV4" />
+<Param Name="DID_ANALOG_INPUTS_P-S_RESISTOR_HIGH" Connection="Input_Ana" />
+<Param Name="DID_FREQUENCY_INPUTS_P-S_TON" Connection="Input_Freq_ON" />
+<Param Name="DID_FREQUENCY_INPUTS_P-S_TOFF" Connection="Input_Freq_OFF" />
+<Param Name="DID_UNIVERSAL_INPUTS_P-S_VOLTAGE" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_P-S_VOLTAGE" Connection="Input_Ana" />
+<Param Name="DID_UNIVERSAL_INPUTS_P-S_RESISTOR" Connection="Input_AnaV4" />
+<Param Name="DID_UNIVERSAL_INPUTS_P-S_RESISTOR" Connection="Input_Ana" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P-S_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P-S_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P-S_CURRENT" Connection="Current" />
+<Param Name="DID_HALF_BRIDGE_OUTPUTS_P-S_CURRENT" Connection="Current_Bridge" />
+<Param Name="DID_OUTPUTS_P-S_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_OUTPUTS_P-S_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P-S_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_INPUT_OUTPUT_P-S_CURRENT" Connection="Current" />
+<Param Name="DID_INPUT_OUTPUT_P-S_VOLTAGE_FEEDBACK_LED" Connection="" />
+<Param Name="DID_INPUT_OUTPUT_P-S_DIAG_CURRENT_LED" Connection="Current_Diag" />
+<Param Name="DID_SENSOR_SUPPLIES_P-S_CMD_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_BRIDGE_OUTPUTS_P-S_DUTY_CYCLE" Connection="Output_Dyn" />
+<Param Name="DID_BRIDGE_OUTPUTS_P-S_DUTY_CYCLE" Connection="Output_Dyn_Bridge" />
+<Param Name="DID_BRIDGE_OUTPUTS_P-S_CURRENT" Connection="Current_Bridge" />
+<Param Name="DID_SENSOR_SUPPLIES_P-S_VOLTAGE" Connection="Output_Ana" />
+<Param Name="DID_SENSOR_SUPPLIES_P-S" Connection="Output_Ana" />
+<Param Name="DID_WAKEUP_ORIGIN_INPUT_POWER-S" Connection="WakeUp_Origin" />
+<Param Name="DID_RTC_M25" Connection="Year" />
+<Param Name="DID_KEY" Connection="Input_Boo" />
+<Param Name="DID_LED" Connection="Output_Boo" />
+<Param Name="DID_MASTERDISPALY_RTC_HOUR" Connection="Hour"/>
+<Param Name="DID_MASTERDISPALY_RTC_MIN" Connection="Min"/>
+<Param Name="DID_MASTERDISPALY_RTC_SEC" Connection="Sec"/>
+<Param Name="DID_MASTERDISPALY_RTC_YEAR" Connection="Year"/>
+<Param Name="DID_MASTERDISPALY_RTC_MONTH" Connection="Month"/>
+<Param Name="DID_MASTERDISPALY_RTC_DATE" Connection="Date"/>
+<Param Name="DID_RTC_MD" Connection="Hour"/>
+<Param Name="DID_MASTER25_RTC_HOUR" Connection="Hour"/>
+<Param Name="DID_MASTER25_RTC_MIN" Connection="Min"/>
+<Param Name="DID_MASTER25_RTC_SEC" Connection="Sec"/>
+<Param Name="DID_MASTER25_RTC_YEAR" Connection="Year"/>
+<Param Name="DID_MASTER25_RTC_MONTH" Connection="Month"/>
+<Param Name="DID_MASTER25_RTC_DATE" Connection="Date"/>
+<Param Name="DID_RTC_M25" Connection="Hour"/>
+<Param Name="DID_ALARM" Connection="Status_Alarm1"/>
+<Param Name="DID_ALARM" Connection="Status_Alarm2"/>
+<Param Name="DID_BACK_LIGHT_MD" Connection="Output_Boo"/>
+</Params>
+</Configuration>
